@@ -126,6 +126,7 @@ img {
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
   min-width: 42px;
   min-height: 63px;
 }
@@ -133,12 +134,14 @@ img {
 .user-link {
   position: relative;
   display: flex;
+  padding-left: 10px;
+  padding-bottom: 4px;
 }
 
 .count-sign {
   position: absolute;
-  margin-top: -13px;
-  margin-left: 11px;
+  margin-top: -10px;
+  margin-left: 14px;
   padding: 3px 5px;
   color: #ffffff;
   font-weight: 400;
@@ -165,6 +168,7 @@ img {
   color: #ffffff;
   background-color: #756157;
   text-transform: uppercase;
+  border-radius: 4px;
 }
 
 .header-button {
@@ -180,6 +184,7 @@ img {
 
 .main-index-header {
   height: 485px;
+  padding-top: 51px;
   background-image: url(../images/broken-line.svg), url(../images/index-background.jpg);
   background-position: bottom, center;
   background-color: #4682b4;
@@ -200,8 +205,6 @@ img {
 
 .main-img {
   margin: 0 auto;
-  padding-top: 51px;
-  padding-bottom: 82px;
 }
 
 .advantages {
@@ -228,7 +231,7 @@ img {
 
 .item-wrapper {
   width: 400px;
-  padding: 89px 85px;
+  padding: 92px 85px;
   text-align: center;
 }
 
@@ -259,7 +262,7 @@ img {
 }
 
 .services-item-title {
-  margin-top: 30px;
+  margin-top: 31px;
   margin-bottom: 30px;
   font-size: 24px;
   line-height: 28px;
@@ -269,6 +272,10 @@ img {
 
 .services-item-description {
   margin: 0;
+}
+
+.present-description {
+  margin-top: -5px;
 }
 
 .habitation-item,
@@ -328,7 +335,7 @@ img {
 
 .advantages-item-title {
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 27px;
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
@@ -337,7 +344,7 @@ img {
 
 .advantages-item-description {
   margin: 0;
-  margin-top: 30px;
+  margin-top: 27px;
 }
 
 .advantages-item-description,
@@ -347,13 +354,18 @@ img {
   text-align: center;
 }
 
+.advantages-item-number {
+  font-size: 18px;
+  line-height: 21px;
+}
+
 .order {
   background-color: #ffffff;
 }
 
 .order-title {
   margin: 0;
-  margin-top: 91px;
+  margin-top: 90px;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
@@ -363,10 +375,10 @@ img {
 
 .order-description {
   margin: 0;
-  margin-top: 29px;
+  margin-top: 30px;
   margin-bottom: 56px;
-  font-size: 22px;
-  line-height: 26px;
+  padding-left: 304px;
+  padding-right: 304px;
   text-align: center;
   color: #333333;
 }
@@ -381,16 +393,15 @@ img {
   color: #ffffff;
   text-decoration: none;
   background-color: #756157;
+  border-radius: 4px;
   cursor: pointer;
 }
 
 .order-button-wrapper {
-  width: 544px;
-  height: 36px;
+  width: 574px;
   margin: 0 auto;
-  margin-bottom: 93px;
+  margin-bottom: 94px;
   text-align: center;
-  border-radius: 4px;
 }
 
 .sign {
@@ -421,7 +432,7 @@ img {
 
 .sign-form {
   display: flex;
-  width: 600px;
+  width: 800px;
   padding: 0;
   padding-bottom: 94px;
   font-family: inherit;
@@ -445,6 +456,7 @@ img {
 .sign-button {
   width: 200px;
   padding: 12px 15px;
+  font-family: inherit;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -468,7 +480,7 @@ img {
 .social-list-container {
   display: flex;
   flex-wrap: wrap;
-  width: 188px;
+  width: 145px;
   padding: 0;
   list-style: none;
 }
@@ -484,10 +496,10 @@ img {
 
 .social-icon {
   position: absolute;
-  top: 0;
+  top: -4px;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: 13px;
   margin: auto;
   color: #83b3d3;
 }
@@ -503,7 +515,7 @@ img {
 }
 
 .footer-link {
-  margin-left: auto;
+  /* margin-left: auto; */
   color: #000000;
 }
 
@@ -980,10 +992,6 @@ img {
 
 /*стили модального окна*/
 
-.modal-container-close {
-  display: none;
-}
-
 .modal-container {
   position: fixed;
   top: 0;
@@ -992,6 +1000,10 @@ img {
   width: 100%;
   height: 100%;
   background-color: rgba(242, 242, 242, 0.8);
+}
+
+.modal-container-close {
+  display: none;
 }
 
 .modal {
