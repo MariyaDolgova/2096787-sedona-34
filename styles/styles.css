@@ -188,7 +188,6 @@ img {
   padding-top: 51px;
   background-image: url(../images/broken-line.svg), url(../images/index-background.jpg);
   background-position: bottom, center;
-  background-color: #4682b4;
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
@@ -360,6 +359,10 @@ img {
   line-height: 21px;
 }
 
+.another-color-wrapper {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
 .order {
   background-color: #ffffff;
 }
@@ -378,8 +381,8 @@ img {
   margin: 0;
   margin-top: 30px;
   margin-bottom: 56px;
-  padding-left: 304px;
-  padding-right: 304px;
+  padding-left: 302px;
+  padding-right: 312px;
   text-align: center;
   color: #333333;
 }
@@ -1260,8 +1263,8 @@ input::-webkit-inner-spin-button {
   padding-right: 16px;
 }
 
-.tooltip-toggle:hover + .tooltip-text,
-.tooltip-toggle:focus + .tooltip-text {
+.tooltip-toggle:hover+.tooltip-text,
+.tooltip-toggle:focus+.tooltip-text {
   display: block;
 }
 
