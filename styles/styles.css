@@ -1006,14 +1006,14 @@ img {
   background-color: rgba(242, 242, 242, 0.8);
 }
 
-.modal-container-close {
+/* .modal-container-close {
   display: none;
-}
+} */
 
 .modal {
   position: relative;
-  margin: auto;
-  padding: 70px;
+  margin: 396px auto auto;
+  padding: 62px 70px;
   background-color: #ffffff;
 }
 
@@ -1037,10 +1037,9 @@ img {
   cursor: pointer;
 }
 
-
-
 .modal-title {
-  margin-bottom: 63px;
+  margin: 0;
+  margin-bottom: 74px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -1067,6 +1066,11 @@ img {
   line-height: 26px;
   text-transform: capitalize;
   color: #000000;
+}
+
+.input::-webkit-input-placeholder {
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .modal-field-date {
