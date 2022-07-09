@@ -551,8 +551,8 @@ img {
   background-color: #e5e5e5;
 }
 
-.social-link:hover,
-.social-link:focus {
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
   color: #68a2ca;
 }
 
